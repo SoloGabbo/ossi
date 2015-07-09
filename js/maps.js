@@ -2,7 +2,7 @@
 jQuery(document).ready(function() {
 	"use strict";
 	var map;
-	var myLatLng = new google.maps.LatLng(51.49470893019127, -0.10170936584472656)
+	var myLatLng = new google.maps.LatLng(19.415893, -99.1634222)
 	//Initialize MAP
 	var myOptions = {
 	zoom: 17,
@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
 		"use strict";
 	var map;
-	var myLatLng = new google.maps.LatLng(51.49470893019127, -0.10170936584472656)
+	var myLatLng = new google.maps.LatLng(19.415893, -99.1634222)
 	//Initialize MAP
 	var myOptions = {
 	zoom: 17,
@@ -80,7 +80,7 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
 	"use strict";
 	var map;
-	var myLatLng = new google.maps.LatLng(51.49470893019127, -0.10170936584472656)
+	var myLatLng = new google.maps.LatLng(19.415893, -99.1634222)
 	//Initialize MAP
 	var myOptions = {
 	zoom: 17,
@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
 	"use strict";
 	var map;
-	var myLatLng = new google.maps.LatLng(51.49470893019127, -0.10170936584472656)
+	var myLatLng = new google.maps.LatLng(19.415893, -99.1634222)
 	//Initialize MAP
 	var myOptions = {
 	zoom: 17,
