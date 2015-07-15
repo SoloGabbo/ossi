@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 	
-	var animationDuration = 1000; //animation speed
-	var animated = true; //toggle animation
+	var animationDuration = 1; //animation speed
+	var animated = false; //toggle animation
 
 	//animate the elements within the viewport
 	function addEffectInView(){
@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
 				animationDelayCount++;
 			
 				if(!thiss.hasClass("animated"))
-					setTimeout(function(){thiss.addClass("animated").removeClass("cp_load");}, 100 * animationDelayCount);
+					setTimeout(function(){thiss.addClass("animated").removeClass("cp_load");}, 1 * animationDelayCount);
 					
 			}
 				
@@ -40,16 +40,16 @@ jQuery(document).ready(function($) {
 	}
 	
 	
-	var new_site_loader = 'disable';
+	var new_site_loader = 'enable';
 	var new_element_loader = 'enable';
 	
-	if(new_element_loader == 'enable' && new_site_loader == 'disable'){
+	if(new_element_loader == 'enable' && new_site_loader == 'enable'){
 		if(animated){			
 			setTimeout(function(){
 			
 				addEffectInView();
 				//add the animation when the content comes into view
-				var throttled2 = _.throttle(addEffectInView, 50);
+				var throttled2 = _.throttle(addEffectInView, 300);
 				$(window).scroll(throttled2);
 			
 			}, animationDuration * 2);
