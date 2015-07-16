@@ -329,7 +329,7 @@ h2.main-title:after, h2.main-title:before {
 	position: absolute
 }
 .social a {
-	font-size: 18px;
+	font-size: 25px;
 	color: #fa9dac;
 	margin-left: 6px;
 	margin-right: 6px;
@@ -373,7 +373,7 @@ h2.main-title:after, h2.main-title:before {
 .hsearch {
 	background: #fa9dac;
 	color: #FFF;
-	font-size: 12px;
+	font-size: 16px;
 	padding: 7px 2px 7px 3px;
 	text-align: center;
 	cursor: pointer;
