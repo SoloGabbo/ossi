@@ -5459,7 +5459,7 @@ th.visible-print,  td.visible-print {
 	max-height: none !important
 }
 .topbar {
-	height: 130px !important;
+	height: 150px !important;
 }
 .hlinks li:nth-child(1):before, .home .slider-text, .home .main-slider .bx-controls-direction {
 	display: none
